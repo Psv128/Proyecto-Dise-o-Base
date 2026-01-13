@@ -1,0 +1,53 @@
+:root { --color-primario: #003A7F; 
+/* Azul oscuro */ --color-secundario: #0094E9; 
+/*Azul más claro */ --color-texto-principal: #000; 
+/* Negro */ --color-texto-secundario: #FFF; 
+/* Blanco */ --color-fondo-principal: #FFF; 
+/* Blanco */ --fuente-principal: 'Quicksand', sans-serif; 
+/* --espaciado-base: 1rem; */ 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: var(--fuente-principal);
+}
+/* Media-specific rules (mobile/tablet/desktop) moved to:
+   css/estilos-mobile.css
+   css/estilos-tablet.css
+   css/estilos-desktop.css
+   Keep only base styles in this file. */
+
+/* Botón fijo: Volver arriba (visible en los 3 formatos) */
+.back-to-top{
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    width: 4.2rem;
+    height: 4.2rem;
+    border-radius: 50%;
+    background: var(--color-secundario);
+    color: var(--color-fondo-principal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    border: none;
+    cursor: pointer;
+    z-index: 9999;
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 220ms ease, transform 220ms ease;
+    pointer-events: none;
+}
+.back-to-top i{ font-size: 1.2rem; }
+.back-to-top.visible{ opacity: 1; transform: translateY(0); pointer-events: auto; }
+
+/* Preferencia de accesibilidad: foco visible */
+.back-to-top:focus{ outline: 3px solid rgba(0,58,127,0.15); }
