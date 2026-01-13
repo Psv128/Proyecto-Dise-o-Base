@@ -41,8 +41,18 @@
   color: white;
   padding: 2rem;
 }
-.seccion_1 h1 { font-size: 2.2rem; font-weight: 500; margin-bottom: 1rem; }
-.seccion_1 p { font-size: 1.4rem; margin-bottom: 1.5rem; margin-top: -0.2rem; }
+.seccion_1 h1 {
+   font-size: 2.2rem;
+    font-weight: 500;
+     margin-bottom: 1rem;
+     }
+
+.seccion_1 p {
+   font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+     margin-top: -0.2rem;
+     }
+
 .seccion_1 button{
   background-color: var(--color-secundario);
   font-family: var(--fuente-principal);
@@ -230,43 +240,213 @@ i{
 }
 
 /* SECCION DEL HTML WEBS */
-.web-seccion_2{ background-color: var(--color-fondo-principal); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
-.web-seccion_2 h1{ font-weight: 570; color: var(--color-primario); font-size: 1.7rem; }
-.web-seccion_2 i{ margin-top: 15rem; color: var(--color-secundario); font-size: 8rem; margin-bottom: 3rem; }
-.web-seccion_2 p{ color: var(--color-primario); margin-bottom: 10rem; }
+.web-seccion_2{
+   background-color: var(--color-fondo-principal);
+    display: flex;
+     flex-direction: column;
+      justify-content: center;
+       align-items: center;
+        text-align: center;
+       
+      }
+
+.web-seccion_2 h1{
+   font-weight: 570;
+    color: var(--color-primario);
+     font-size: 1.7rem;
+     }
+
+.web-seccion_2 i{
+   margin-top: 15rem;
+    color: var(--color-secundario);
+     font-size: 8rem;
+      margin-bottom: 3rem;
+     }
+
+.web-seccion_2 p{
+   color: var(--color-primario); 
+   margin-bottom: 10rem;
+   }
 
 /* SECCION 'Nuestros últimos proyectos...' */
-.seccion_5{ background-color: var(--color-fondo-principal); display: flex; flex-direction: column; align-items: center; justify-content: center; }
-.seccion_5 .proyecto h3{ text-align: center; margin-top: 2rem; font-size: 1.5rem; font-weight: 570; }
-.seccion_5 h1{ color: var(--color-texto-principal); display: flex; text-align: center; margin-top: 1.5rem; font-size: 2rem; font-weight: 570; flex-direction: column; align-items: center; }
-.seccion_5 img{ width: auto; height: auto; border-radius: 0.5rem; margin-top: 0.5rem; margin-bottom: 1rem; }
+.seccion_5{
+   background-color: var(--color-fondo-principal);
+    display: flex;
+     flex-direction: column;
+      align-items: center;
+       justify-content: center;
+       }
+
+.seccion_5 .proyecto h3{
+   text-align: center;
+    margin-top: 2rem;
+     font-size: 1.5rem;
+      font-weight: 570; 
+    }
+
+.seccion_5 h1{
+   color: var(--color-texto-principal);
+    display: flex;
+     text-align: center;
+      margin-top: 1.5rem;
+       font-size: 2rem;
+        font-weight: 570;
+         flex-direction: column;
+          align-items: center;
+         }
+
+.seccion_5 img{
+   width: auto; 
+   height: auto;
+    border-radius: 0.5rem; 
+    margin-top: 0.5rem;
+     margin-bottom: 1rem; 
+    }
 
 /* CONTACTO */
-.seccion_1 .p_seccion1_contacto{ margin-top: 3rem; margin-left: 2rem; margin-right: 2rem; margin-bottom: 4rem; }
-.seccion_1 .h1_contacto{ margin-top: 5rem; }
-.contacto-seccion_1{ background-color: var(--color-fondo-principal); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
-.contacto-seccion_1 h1{ font-weight: 570; color: var(--color-primario); font-size: 1.7rem; margin-top: 2rem; margin-bottom: 1.2rem; }
+.seccion_1 .p_seccion1_contacto{ 
+  margin-top: 3rem;
+   margin-left: 2rem;
+    margin-right: 2rem;
+     margin-bottom: 4rem;
+     }
+
+.seccion_1 .h1_contacto{
+   margin-top: 5rem;
+   }
+
+.contacto-seccion_1{ 
+  background-color: var(--color-fondo-principal);
+   display: flex;
+    flex-direction: column;
+     justify-content: center;
+      align-items: center; 
+      text-align: center; 
+    }
+
+.contacto-seccion_1 h1{ 
+  font-weight: 570; 
+  color: var(--color-primario);
+   font-size: 1.7rem;
+    margin-top: 2rem;
+     margin-bottom: 1.2rem;
+     }
+
 
 /* FORMULARIO */
-.formulario_contacto{ /* Formulario móvil: padding y anchos ajustados para pantallas pequeñas */ border: var(--color-primario) 2px solid; border-radius: 0.9vh; margin-bottom: 1.5rem; padding: 2rem 1rem; }
-.formulario_contacto form { display: flex; flex-direction: column; justify-content: left; align-items: start; gap: 1vh; color: var(--color-primario); }
-.formulario_contacto input, .formulario_contacto textarea { width: 20rem; padding: 0.4rem; border-color: var(--color-secundario); border-radius: 0.9vh; color: var(--color-secundario); font-family: var(--fuente-principal); }
-.formulario_contacto ::placeholder{ color: var(--color-secundario); }
-.formulario_contacto .botones { display: flex; width: 100%; justify-content: center; gap: 1rem; margin-top: 1rem; }
-.formulario_contacto button { background-color: var(--color-secundario); color: white; border: none; padding: 0.5rem 2.2rem; border-radius: 5px; font-size: 0.9rem; cursor: pointer; }
+.formulario_contacto{ /* Formulario móvil: padding y anchos ajustados para pantallas pequeñas */ 
+  border: var(--color-primario) 2px solid;
+   border-radius: 0.9vh; 
+   margin-bottom: 1.5rem;
+   padding: 2rem 1rem;
+   }
+
+.formulario_contacto form { 
+  display: flex;
+   flex-direction: column;
+    justify-content: left;
+     align-items: start;
+      gap: 1vh; 
+      color: var(--color-primario);
+     }
+
+.formulario_contacto input, .formulario_contacto textarea {
+   width: 20rem; 
+   padding: 0.4rem; 
+   border-color: var(--color-secundario);
+    border-radius: 0.9vh; 
+    color: var(--color-secundario);
+     font-family: var(--fuente-principal);
+     }
+
+.formulario_contacto ::placeholder{ 
+  color: var(--color-secundario);
+ }
+.formulario_contacto .botones {
+   display: flex;
+    width: 100%;
+     justify-content: center;
+      gap: 1rem;
+       margin-top: 1rem; 
+      }
+
+.formulario_contacto button {
+  background-color: var(--color-secundario);
+   color: white;
+    border: none;
+     padding: 0.5rem 2.2rem;
+      border-radius: 5px; 
+      font-size: 0.9rem;
+       cursor: pointer; 
+      }
+
 
 /* FOOTER */
 /* Footer móvil: tamaño más compacto y contenido centrado */
-footer{ background-color: var(--color-texto-principal); color: var(--color-texto-secundario); display: flex; flex-direction: column; font-size: 0.9rem; padding: 1.2rem; align-items: center; justify-content: center; }
-.redes{ display: flex; flex-direction: row; }
-.redes i{ font-size: 2rem; margin-right: 1rem; margin-bottom: -1rem; margin-top: 0.3rem; }
+footer{
+   background-color: var(--color-texto-principal);
+    color: var(--color-texto-secundario);
+     display: flex;
+      flex-direction: column;
+       font-size: 0.9rem; 
+       padding: 1.2rem;
+        align-items: center;
+         justify-content: center; 
+        }
+
+
+.redes{ 
+  display: flex;
+   flex-direction: row;
+   }
+
+.redes i{
+   font-size: 2rem;
+    margin-right: 1rem;
+     margin-bottom: -1rem;
+      margin-top: 0.3rem; 
+    }
 
 /* SECCION 2 DE 'nosotros.html' */
-.nosotros-seccion_2{ display: flex; flex-direction: column; justify-content: center; }
-.nosotros-seccion_2 h2{ margin-top: 2rem; margin-bottom: 1rem; margin-right: 1rem; margin-left: 1rem; font-size: 2.2rem; text-align: center; }
-.nosotros-seccion_2 .h2_fondo-azul{ background-color: var(--color-secundario); color: var(--color-texto-secundario); text-align: left; border-radius: 0.5vh; padding: 1.2rem; font-size: 1.8rem; font-weight: 550; margin-bottom: 0.5rem;}
-.nosotros-seccion_2 p{ margin-left: 15rem; margin-right: 15rem; font-size: 1.7rem; margin-bottom: 0.6rem; }
-.contenedor-img { display: flex; justify-content: center; margin-bottom: 0.3rem; }
+.nosotros-seccion_2{ 
+  display: flex;
+   flex-direction: column;
+    justify-content: center;
+   }
+
+.nosotros-seccion_2 h2{ 
+  margin-top: 2rem;
+   margin-bottom: 1rem;
+    margin-right: 1rem;
+     margin-left: 1rem; 
+     font-size: 2.2rem;
+      text-align: center;
+     }
+
+.nosotros-seccion_2 .h2_fondo-azul{
+   background-color: var(--color-secundario);
+    color: var(--color-texto-secundario);
+     text-align: left;
+      border-radius: 0.5vh; 
+      padding: 1.2rem; 
+      font-size: 1.8rem;
+       font-weight: 550;
+        margin-bottom: 0.5rem;
+      }
+
+.nosotros-seccion_2 p{
+   margin-left: 15rem; 
+   margin-right: 15rem; 
+   font-size: 1.7rem;
+   margin-bottom: 0.6rem;
+
+  }
+
+.contenedor-img {
+   display: flex; 
+   justify-content: center;
+    margin-bottom: 0.3rem;
+   }
 
 p.nosotros{
   margin-left: 1rem;
